@@ -1,0 +1,144 @@
+body{
+
+    margin: 0;
+    padding: 0;
+    background-color: cornsilk;
+
+}
+
+header p{
+
+    font-family:Helvetica, sans-serif;
+    font-size: large;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: rgb(255, 255, 255);
+
+}
+
+
+header h4{
+    text-align: center;
+    color: moccasin;
+    font-family:Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+
+header {
+
+    width: 100%;
+    margin: 0 auto;
+    background-color: rgb(1, 6, 71);
+    height: 80px;
+    padding-top: 5px;
+    line-height: 5px;
+}
+
+.image-box{
+    display: grid;
+    grid-template: 1fr / 1fr;
+    place-items: center;
+
+}
+
+.image-box > * {
+
+        grid-column: 1 / 1;
+        grid-row: 1 / 1;
+
+}
+/*
+.image-box .#demo{
+    z-index: 2;
+}
+
+.image-box .#demos{
+    z-index: 1;
+}
+*/
+
+#demo{
+width: 48%;
+
+}
+
+
+#demos{
+    width: 48%;
+
+}
+
+.button-box{
+font-family: Helvetica, sans-serif;
+font-size: 1rem;
+    margin: 0 auto;
+   text-align: center;
+   width: 100%;
+   background-color: rgb(2, 68, 68);
+   height: 100px;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   color: mintcream;
+   line-height: 10px;
+}
+
+.clear{
+
+    background-color: crimson;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+/* The alert message box */
+.alert {
+    padding: 20px;
+    background-color: #f44336; /* Red */
+    color: white;
+    margin-bottom: 15px;
+  }
+  
+  /* The close button */
+  .closebtn {
+    margin-left: 15px;
+    color: white;
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  /* When moving the mouse over the close button */
+  .closebtn:hover {
+    color: black;
+  }
+
+  .try-b0x{
+
+    width: 100%;
+    background-color: black;
+  }
+
+  #try{
+
+    width: 80px;
+    margin: 0 auto;
+    background-color: black;
+
+  }
+
+  .lower-button button{
+
+    margin: 20px;
+    text-align: center;
+    background-color: #ff0000;
+    color: #FFFFFF;
+    padding: 10px;
+    border-radius: 10px;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 10px;
+    
+  }
